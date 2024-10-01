@@ -1,21 +1,23 @@
-import React from 'react';
+import {OrbitControls} from "@react-three/drei";
+import {Canvas} from "@react-three/fiber";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen w-screen">
+      <Canvas
+        camera={{
+          position: [3, 3, 10],
+        }}
+      >
+        <OrbitControls />
+        <ambientLight />
+        <pointLight position={[4, 5, 3]} intensity={20} />
+        <mesh>
+          <boxGeometry args={[1, 1, 1]} />
+          <meshStandardMaterial color="red" />
+        </mesh>
+      </Canvas>
     </div>
   );
 }
