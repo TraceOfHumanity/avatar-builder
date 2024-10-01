@@ -1,6 +1,5 @@
-import {OrbitControls, SoftShadows} from "@react-three/drei";
+import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
-import React from "react";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
         </mesh>
-        {/* <SoftShadows /> */}
       </Canvas>
     </div>
   );
