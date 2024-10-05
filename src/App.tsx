@@ -1,5 +1,6 @@
 import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
+import { Avater } from "components/Avater";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
         </mesh>
+        <Avater />
       </Canvas>
     </div>
   );
