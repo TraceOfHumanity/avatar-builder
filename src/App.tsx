@@ -24,7 +24,7 @@ function App() {
         <Woman />
         {/* <Avatar /> */}
       </Canvas>
-      {/* <Interface /> */}
+      <Interface />
     </div>
   );
 }

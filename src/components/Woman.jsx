@@ -4,7 +4,9 @@ Command: npx gltfjsx@6.5.2 woman.gltf
 */
 import {useAnimations, useGLTF} from "@react-three/drei";
 import {useGraph} from "@react-three/fiber";
-import React from "react";
+import { useAppDispatch, useAppSelector } from "hooks/useReduxToolkit";
+import React, { useEffect } from "react";
+import { setActions } from "../redux/slices/avatarActions";
 
 import {SkeletonUtils} from "three-stdlib";
 
@@ -13,7 +15,21 @@ export const Woman = (props) => {
   const {scene, animations} = useGLTF("/3dModels/woman.gltf");
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
   const {nodes, materials} = useGraph(clone);
-  const {actions} = useAnimations(animations, group);
+  const {actions, names} = useAnimations(animations, group);
+  const {currentAction} = useAppSelector((state) => state.avatarActions);
+  const dispatch = useAppDispatch();
+  useEffect(() => {
+    actions[currentAction]?.reset().fadeIn(0.5).play();
+
+    return () => {
+      actions[currentAction]?.reset().fadeOut(0.5);
+    };
+  }, [currentAction, actions]);
+
+  useEffect(() => {
+    dispatch(setActions(names));
+  }, [names]);
+
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
@@ -32,12 +48,12 @@ export const Woman = (props) => {
               material={materials.Eyes}
               skeleton={nodes.Mesh019_1.skeleton}
             />
-            <skinnedMesh
+            {/* <skinnedMesh
               name="Mesh019_2"
               geometry={nodes.Mesh019_2.geometry}
               material={materials.Hair}
               skeleton={nodes.Mesh019_2.skeleton}
-            />
+            /> */}
             <skinnedMesh
               name="Mesh019_3"
               geometry={nodes.Mesh019_3.geometry}
