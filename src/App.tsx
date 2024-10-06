@@ -1,6 +1,7 @@
 import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
-import { Avater } from "components/Avater";
+import { Woman } from "components/Woman";
+
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
         <OrbitControls />
         <ambientLight />
         <pointLight position={[4, 5, 3]} intensity={20} />
-        <mesh>
+        {/* <mesh>
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
-        </mesh>
-        <Avater />
+        </mesh> */}
+        <Woman />
       </Canvas>
     </div>
   );
