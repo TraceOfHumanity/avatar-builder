@@ -9,7 +9,7 @@ function App() {
     <div className="h-screen w-screen">
       <Canvas
         camera={{
-          position: [3, 1, 3],
+          position: [0, 2, 3],
         }}
       >
         <color attach="background" args={["#303030"]} />

@@ -13,10 +13,10 @@ export const Interface = () => {
   };
 
   return (
-    <div className="fixed left-0 top-0 ">
-      <div className="flex flex-col">
+    <div className="fixed left-2 top-2 ">
+      <div className="flex flex-col gap-2">
         {actions.map((action) => (
-          <button key={action} onClick={() => handleAction(action)}>
+          <button className="border border-white text-white text-start p-1 rounded-md" key={action} onClick={() => handleAction(action)}>
             {action}
           </button>
         ))}

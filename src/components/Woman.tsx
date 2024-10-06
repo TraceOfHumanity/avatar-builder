@@ -1,15 +1,15 @@
 import {useAnimations, useGLTF} from "@react-three/drei";
-import React, {useEffect} from "react";
+import React, {useEffect, useRef} from "react";
 
 import {useAppDispatch, useAppSelector} from "hooks/useReduxToolkit";
-import {SkeletonUtils} from "three-stdlib";
+import * as THREE from "three";
 
 import {setActions} from "../redux/slices/avatarActions";
 
 export function Woman(props: any) {
-  const group = React.useRef();
+  const group = useRef<THREE.Group>();
   const dispatch = useAppDispatch();
-  const {scene, animations, materials} = useGLTF("/3dModels/woman.gltf");
+  const {scene, nodes, animations, materials} = useGLTF("/3dModels/woman.gltf");
   const {actions, names} = useAnimations(animations, group);
   const {currentAction} = useAppSelector((state) => state.avatarActions);
   useEffect(() => {
@@ -26,8 +26,19 @@ export function Woman(props: any) {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <primitive object={scene} />
+      <group name="Scene">
+        {/* <primitive object={scene} /> */}
+        <skinnedMesh
+          name="LeftHand"
+          geometry={(nodes["LeftHand"] as THREE.Mesh).geometry}
+          material={materials["Heir"]}
+          castShadow
+        />
+      </group>
     </group>
+    // <group ref={group} {...props} dispose={null}>
+    //   <primitive object={scene} />
+    // </group>
   );
 }
 

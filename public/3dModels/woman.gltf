@@ -20,7 +20,7 @@
     ],
     "nodes" : [
         {
-            "name" : "mixamorig:HeadTop_End",
+            "name" : "HeadTop_End",
             "rotation" : [
                 7.105427357601002e-15,
                 0,
@@ -37,7 +37,7 @@
             "children" : [
                 0
             ],
-            "name" : "mixamorig:Head",
+            "name" : "Head",
             "rotation" : [
                 7.105427357601002e-15,
                 0,
@@ -54,7 +54,7 @@
             "children" : [
                 1
             ],
-            "name" : "mixamorig:Neck",
+            "name" : "Neck",
             "rotation" : [
                 0.022255344316363335,
                 0,
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "name" : "mixamorig:LeftHandThumb4",
+            "name" : "LeftHandThumb4",
             "rotation" : [
                 2.7008354663848877e-08,
                 -3.958120942115784e-08,
@@ -90,7 +90,7 @@
             "children" : [
                 3
             ],
-            "name" : "mixamorig:LeftHandThumb3",
+            "name" : "LeftHandThumb3",
             "rotation" : [
                 -0.17625953257083893,
                 4.640794486476807e-07,
@@ -112,7 +112,7 @@
             "children" : [
                 4
             ],
-            "name" : "mixamorig:LeftHandThumb2",
+            "name" : "LeftHandThumb2",
             "rotation" : [
                 0.10065716505050659,
                 -5.038432391302194e-07,
@@ -134,7 +134,7 @@
             "children" : [
                 5
             ],
-            "name" : "mixamorig:LeftHandThumb1",
+            "name" : "LeftHandThumb1",
             "rotation" : [
                 0.1343463808298111,
                 0.03629373759031296,
@@ -153,7 +153,7 @@
             ]
         },
         {
-            "name" : "mixamorig:LeftHandIndex4",
+            "name" : "LeftHandIndex4",
             "rotation" : [
                 -1.30385160446167e-08,
                 -1.0710209608078003e-08,
@@ -170,7 +170,7 @@
             "children" : [
                 7
             ],
-            "name" : "mixamorig:LeftHandIndex3",
+            "name" : "LeftHandIndex3",
             "rotation" : [
                 -0.004530954174697399,
                 2.328330639400633e-09,
@@ -192,7 +192,7 @@
             "children" : [
                 8
             ],
-            "name" : "mixamorig:LeftHandIndex2",
+            "name" : "LeftHandIndex2",
             "rotation" : [
                 0.06517651677131653,
                 -3.31324017111001e-08,
@@ -214,7 +214,7 @@
             "children" : [
                 9
             ],
-            "name" : "mixamorig:LeftHandIndex1",
+            "name" : "LeftHandIndex1",
             "rotation" : [
                 0.062249135226011276,
                 0.005310446955263615,
@@ -233,7 +233,7 @@
             ]
         },
         {
-            "name" : "mixamorig:LeftHandMiddle4",
+            "name" : "LeftHandMiddle4",
             "rotation" : [
                 1.0943042916267132e-08,
                 -1.862645815364772e-09,
@@ -255,7 +255,7 @@
             "children" : [
                 11
             ],
-            "name" : "mixamorig:LeftHandMiddle3",
+            "name" : "LeftHandMiddle3",
             "rotation" : [
                 0.04285961017012596,
                 1.2001806659611702e-08,
@@ -277,7 +277,7 @@
             "children" : [
                 12
             ],
-            "name" : "mixamorig:LeftHandMiddle2",
+            "name" : "LeftHandMiddle2",
             "rotation" : [
                 -0.0689564198255539,
                 6.173065969505842e-08,
@@ -299,7 +299,7 @@
             "children" : [
                 13
             ],
-            "name" : "mixamorig:LeftHandMiddle1",
+            "name" : "LeftHandMiddle1",
             "rotation" : [
                 0.1186307966709137,
                 0.00873706117272377,
@@ -323,7 +323,7 @@
                 10,
                 14
             ],
-            "name" : "mixamorig:LeftHand",
+            "name" : "LeftHand",
             "rotation" : [
                 -0.009944695048034191,
                 -0.03144654631614685,
@@ -340,7 +340,7 @@
             "children" : [
                 15
             ],
-            "name" : "mixamorig:LeftForeArm",
+            "name" : "LeftForeArm",
             "rotation" : [
                 -0.1009729877114296,
                 -0.0026755044236779213,
@@ -362,7 +362,7 @@
             "children" : [
                 16
             ],
-            "name" : "mixamorig:LeftArm",
+            "name" : "LeftArm",
             "rotation" : [
                 -0.04864981770515442,
                 -0.0006287595606409013,
@@ -384,7 +384,7 @@
             "children" : [
                 17
             ],
-            "name" : "mixamorig:LeftShoulder",
+            "name" : "LeftShoulder",
             "rotation" : [
                 0.5577170848846436,
                 0.43237191438674927,
@@ -403,7 +403,7 @@
             ]
         },
         {
-            "name" : "mixamorig:RightHandThumb4",
+            "name" : "RightHandThumb4",
             "rotation" : [
                 -1.1175869119028903e-08,
                 2.4680044674596502e-08,
@@ -425,7 +425,7 @@
             "children" : [
                 19
             ],
-            "name" : "mixamorig:RightHandThumb3",
+            "name" : "RightHandThumb3",
             "rotation" : [
                 -0.0921773910522461,
                 -5.111439236316073e-07,
@@ -447,7 +447,7 @@
             "children" : [
                 20
             ],
-            "name" : "mixamorig:RightHandThumb2",
+            "name" : "RightHandThumb2",
             "rotation" : [
                 0.09888710826635361,
                 4.1694781316437e-07,
@@ -469,7 +469,7 @@
             "children" : [
                 21
             ],
-            "name" : "mixamorig:RightHandThumb1",
+            "name" : "RightHandThumb1",
             "rotation" : [
                 0.12311016023159027,
                 -0.034099601209163666,
@@ -488,7 +488,7 @@
             ]
         },
         {
-            "name" : "mixamorig:RightHandIndex4",
+            "name" : "RightHandIndex4",
             "rotation" : [
                 -4.423782229423523e-09,
                 -4.685716703534126e-09,
@@ -505,7 +505,7 @@
             "children" : [
                 23
             ],
-            "name" : "mixamorig:RightHandIndex3",
+            "name" : "RightHandIndex3",
             "rotation" : [
                 -0.11792990565299988,
                 -2.009087118892694e-08,
@@ -527,7 +527,7 @@
             "children" : [
                 24
             ],
-            "name" : "mixamorig:RightHandIndex2",
+            "name" : "RightHandIndex2",
             "rotation" : [
                 0.0651162639260292,
                 7.233100784986846e-09,
@@ -544,7 +544,7 @@
             "children" : [
                 25
             ],
-            "name" : "mixamorig:RightHandIndex1",
+            "name" : "RightHandIndex1",
             "rotation" : [
                 0.08386772125959396,
                 -0.0041750152595341206,
@@ -563,7 +563,7 @@
             ]
         },
         {
-            "name" : "mixamorig:RightHandMiddle4",
+            "name" : "RightHandMiddle4",
             "rotation" : [
                 9.778887033462524e-09,
                 1.171429286905834e-09,
@@ -585,7 +585,7 @@
             "children" : [
                 27
             ],
-            "name" : "mixamorig:RightHandMiddle3",
+            "name" : "RightHandMiddle3",
             "rotation" : [
                 -0.09844591468572617,
                 -2.308963509278783e-08,
@@ -607,7 +607,7 @@
             "children" : [
                 28
             ],
-            "name" : "mixamorig:RightHandMiddle2",
+            "name" : "RightHandMiddle2",
             "rotation" : [
                 0.014621841721236706,
                 1.4856183838674042e-07,
@@ -629,7 +629,7 @@
             "children" : [
                 29
             ],
-            "name" : "mixamorig:RightHandMiddle1",
+            "name" : "RightHandMiddle1",
             "rotation" : [
                 0.11694274842739105,
                 -0.005523407831788063,
@@ -653,7 +653,7 @@
                 26,
                 30
             ],
-            "name" : "mixamorig:RightHand",
+            "name" : "RightHand",
             "rotation" : [
                 -0.01933644525706768,
                 0.001178021659143269,
@@ -675,7 +675,7 @@
             "children" : [
                 31
             ],
-            "name" : "mixamorig:RightForeArm",
+            "name" : "RightForeArm",
             "rotation" : [
                 -0.10095163434743881,
                 0.002792902057990432,
@@ -692,7 +692,7 @@
             "children" : [
                 32
             ],
-            "name" : "mixamorig:RightArm",
+            "name" : "RightArm",
             "rotation" : [
                 -0.04886196553707123,
                 0.0004263008013367653,
@@ -714,7 +714,7 @@
             "children" : [
                 33
             ],
-            "name" : "mixamorig:RightShoulder",
+            "name" : "RightShoulder",
             "rotation" : [
                 0.5595101118087769,
                 -0.4309910237789154,
@@ -738,7 +738,7 @@
                 18,
                 34
             ],
-            "name" : "mixamorig:Spine2",
+            "name" : "Spine2",
             "rotation" : [
                 -2.9802322387695312e-08,
                 0,
@@ -755,7 +755,7 @@
             "children" : [
                 35
             ],
-            "name" : "mixamorig:Spine1",
+            "name" : "Spine1",
             "rotation" : [
                 -1.6763806343078613e-08,
                 0,
@@ -772,7 +772,7 @@
             "children" : [
                 36
             ],
-            "name" : "mixamorig:Spine",
+            "name" : "Spine",
             "rotation" : [
                 -0.022255297750234604,
                 0,
@@ -786,7 +786,7 @@
             ]
         },
         {
-            "name" : "mixamorig:LeftToe_End",
+            "name" : "LeftToe_End",
             "rotation" : [
                 -4.423782229423523e-09,
                 -9.546056389808655e-09,
@@ -808,7 +808,7 @@
             "children" : [
                 38
             ],
-            "name" : "mixamorig:LeftToeBase",
+            "name" : "LeftToeBase",
             "rotation" : [
                 0.3674502372741699,
                 0.07538741827011108,
@@ -830,7 +830,7 @@
             "children" : [
                 39
             ],
-            "name" : "mixamorig:LeftFoot",
+            "name" : "LeftFoot",
             "rotation" : [
                 0.43702027201652527,
                 0.049353647977113724,
@@ -852,7 +852,7 @@
             "children" : [
                 40
             ],
-            "name" : "mixamorig:LeftLeg",
+            "name" : "LeftLeg",
             "rotation" : [
                 -0.045619890093803406,
                 0.0005147875053808093,
@@ -874,7 +874,7 @@
             "children" : [
                 41
             ],
-            "name" : "mixamorig:LeftUpLeg",
+            "name" : "LeftUpLeg",
             "rotation" : [
                 -4.1083028918365017e-05,
                 -0.0020938371308147907,
@@ -893,7 +893,7 @@
             ]
         },
         {
-            "name" : "mixamorig:RightToe_End",
+            "name" : "RightToe_End",
             "rotation" : [
                 -9.080395102500916e-09,
                 2.0372681319713593e-08,
@@ -910,7 +910,7 @@
             "children" : [
                 43
             ],
-            "name" : "mixamorig:RightToeBase",
+            "name" : "RightToeBase",
             "rotation" : [
                 0.36649373173713684,
                 -0.0776219442486763,
@@ -927,7 +927,7 @@
             "children" : [
                 44
             ],
-            "name" : "mixamorig:RightFoot",
+            "name" : "RightFoot",
             "rotation" : [
                 0.43869295716285706,
                 -0.04901807755231857,
@@ -949,7 +949,7 @@
             "children" : [
                 45
             ],
-            "name" : "mixamorig:RightLeg",
+            "name" : "RightLeg",
             "rotation" : [
                 -0.04437879100441933,
                 -0.0005006269202567637,
@@ -971,7 +971,7 @@
             "children" : [
                 46
             ],
-            "name" : "mixamorig:RightUpLeg",
+            "name" : "RightUpLeg",
             "rotation" : [
                 -2.2840417841507588e-06,
                 0.00011644218466244638,
@@ -995,7 +995,7 @@
                 42,
                 47
             ],
-            "name" : "mixamorig:Hips",
+            "name" : "Hips",
             "rotation" : [
                 -0.7071068286895752,
                 0,
