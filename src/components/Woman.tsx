@@ -25,20 +25,20 @@ export function Woman(props: any) {
   }, [names]);
 
   return (
-    <group ref={group} {...props} dispose={null}>
-      <group name="Scene">
-        {/* <primitive object={scene} /> */}
-        <skinnedMesh
-          name="LeftHand"
-          geometry={(nodes["LeftHand"] as THREE.Mesh).geometry}
-          material={materials["Heir"]}
-          castShadow
-        />
-      </group>
-    </group>
     // <group ref={group} {...props} dispose={null}>
-    //   <primitive object={scene} />
+    //   <group name="Scene">
+    //     {/* <primitive object={scene} /> */}
+    //     <skinnedMesh
+    //       name="LeftHand"
+    //       geometry={(nodes["LeftHand"] as THREE.Mesh).geometry}
+    //       material={materials["Heir"]}
+    //       castShadow
+    //     />
+    //   </group>
     // </group>
+    <group ref={group} {...props} dispose={null}>
+      <primitive object={scene} />
+    </group>
   );
 }
 

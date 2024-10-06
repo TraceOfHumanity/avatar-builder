@@ -20,9 +20,9 @@ function App() {
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
         </mesh> */}
-        <Woman />
+        {/* <Woman /> */}
       </Canvas>
-      <Interface />
+      {/* <Interface /> */}
     </div>
   );
 }
