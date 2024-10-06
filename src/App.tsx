@@ -1,7 +1,7 @@
 import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
-import { Woman } from "components/Woman";
 
+import {Woman} from "components/Woman";
 
 function App() {
   return (
