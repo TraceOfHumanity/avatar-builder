@@ -44,4 +44,4 @@ export const Box = (props) => {
   );
 };
 
-useGLTF.preload("/3dModels/box.glb");
+useGLTF.preload("/3dModels/box3.glb");
