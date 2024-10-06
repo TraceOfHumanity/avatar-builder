@@ -6,6 +6,7 @@ import {useAnimations, useGLTF} from "@react-three/drei";
 import {useGraph} from "@react-three/fiber";
 import React, {useEffect} from "react";
 
+import * as Three from "three";
 import {SkeletonUtils} from "three-stdlib";
 
 export const Avatar = (props) => {
@@ -22,6 +23,10 @@ export const Avatar = (props) => {
   //     actions[names[0]]?.reset().fadeOut(0.5);
   //   };
   // }, [names, actions]);
+
+  useEffect(() => {
+    materials["Wolf3D_Body.001"].color = new Three.Color("#ff0000");
+  }, [materials]);
 
   return (
     <group ref={group} {...props} dispose={null} position={[1, 0, 0]}>
