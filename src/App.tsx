@@ -22,7 +22,7 @@ function App() {
           <meshStandardMaterial color="red" />
         </mesh> */}
         <Woman />
-        {/* <Avatar /> */}
+        <Avatar />
       </Canvas>
       <Interface />
     </div>

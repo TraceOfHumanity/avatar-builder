@@ -4,11 +4,12 @@ Command: npx gltfjsx@6.5.2 woman.gltf
 */
 import {useAnimations, useGLTF} from "@react-three/drei";
 import {useGraph} from "@react-three/fiber";
-import { useAppDispatch, useAppSelector } from "hooks/useReduxToolkit";
-import React, { useEffect } from "react";
-import { setActions } from "../redux/slices/avatarActions";
+import React, {useEffect} from "react";
 
+import {useAppDispatch, useAppSelector} from "hooks/useReduxToolkit";
 import {SkeletonUtils} from "three-stdlib";
+
+import {setActions} from "../redux/slices/avatarActions";
 
 export const Woman = (props) => {
   const group = React.useRef();
@@ -48,12 +49,12 @@ export const Woman = (props) => {
               material={materials.Eyes}
               skeleton={nodes.Mesh019_1.skeleton}
             />
-            {/* <skinnedMesh
+            <skinnedMesh
               name="Mesh019_2"
               geometry={nodes.Mesh019_2.geometry}
               material={materials.Hair}
               skeleton={nodes.Mesh019_2.skeleton}
-            /> */}
+            />
             <skinnedMesh
               name="Mesh019_3"
               geometry={nodes.Mesh019_3.geometry}
