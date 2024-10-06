@@ -21,10 +21,10 @@ function App() {
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
         </mesh> */}
-        <Woman />
-        <Avatar />
+        {/* <Woman />
+        <Avatar /> */}
       </Canvas>
-      <Interface />
+      {/* <Interface /> */}
     </div>
   );
 }
