@@ -1,6 +1,7 @@
 import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 
+import {Interface} from "components/Interface";
 import {Woman} from "components/Woman";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         </mesh> */}
         <Woman />
       </Canvas>
+      <Interface />
     </div>
   );
 }
