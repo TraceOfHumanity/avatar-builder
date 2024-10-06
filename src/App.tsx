@@ -2,6 +2,7 @@ import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 
 import {Avatar} from "components/Avatar";
+import { Box } from "components/Box";
 import {Interface} from "components/Interface";
 import {Woman} from "components/Woman";
 
@@ -23,8 +24,9 @@ function App() {
         </mesh> */}
         {/* <Woman />
         <Avatar /> */}
+        <Box />
       </Canvas>
-      {/* <Interface /> */}
+      <Interface />
     </div>
   );
 }
