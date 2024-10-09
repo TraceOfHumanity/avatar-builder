@@ -13,7 +13,10 @@ export const BurgerMenuBtn = () => {
   };
 
   return (
-    <button className="fixed h-fit w-fit text-3xl p-1 border border-borderColor" onClick={toggleMenu}>
+    <button
+      className="rounded-md border-borderColor fixed h-fit w-fit border p-1 text-3xl"
+      onClick={toggleMenu}
+    >
       <IoMenu />
     </button>
   );
