@@ -14,7 +14,7 @@ export const MenuContent = () => {
   }, [isMenuOpen]);
   if (!isMenuOpen) return null;
   return (
-    <div className="" ref={menuContentRef}>
+    <div className=" fixed z-10 bg-red-500" ref={menuContentRef}>
       MenuContent
     </div>
   );
