@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="h-screen w-screen">
       <Menu />
-      {/* <Canvas
+      <Canvas
         camera={{
           position: [0, 0, 3],
         }}
@@ -22,7 +22,7 @@ function App() {
           <meshStandardMaterial color="red" />
         </mesh>
         <GirlCat2 />
-      </Canvas> */}
+      </Canvas>
     </div>
   );
 }
