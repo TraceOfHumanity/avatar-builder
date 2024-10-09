@@ -2,6 +2,7 @@ import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 
 import {Menu} from "components";
+import { Avatar } from "components/3DModels/Avatar";
 import {GirlCat2} from "components/3DModels/GirlCat2";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <meshStandardMaterial color="red" />
         </mesh>
         <GirlCat2 />
+        <Avatar />
       </Canvas>
     </div>
   );
