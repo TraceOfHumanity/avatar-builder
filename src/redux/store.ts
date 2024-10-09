@@ -1,14 +1,16 @@
 import {configureStore} from "@reduxjs/toolkit";
 
 import avatarActions from "./slices/avatarActions";
-import themeSlice from "./slices/themeSlice";
 import cubeBuilder from "./slices/cubeBuilder";
+import menuSlice from "./slices/menu";
+import themeSlice from "./slices/theme";
 
 const store = configureStore({
   reducer: {
-    theme: themeSlice,
+    themeSlice,
     avatarActions,
     cubeBuilder,
+    menuSlice,
   },
 });
 
