@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --bodyBg: #303030;
+    --textColor: #fff;
+    --borderColor: #fff;
+  }
+}
+
+@layer components {
+  body {
+    @apply bg-bodyBg text-textColor;
+  }
+}
