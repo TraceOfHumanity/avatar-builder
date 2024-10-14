@@ -2,8 +2,6 @@ import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 
 import {Menu} from "components";
-import {Avatar} from "components/3DModels/Avatar";
-import {GirlCat2} from "components/3DModels/GirlCat2";
 
 function App() {
   return (
@@ -24,8 +22,6 @@ function App() {
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
         </mesh>
-        <GirlCat2 />
-        <Avatar />
       </Canvas>
     </div>
   );
