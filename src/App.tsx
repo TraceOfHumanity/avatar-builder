@@ -2,6 +2,7 @@ import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 
 import {Menu} from "components";
+import { XCorundum } from "components/3DModels/XCorundum";
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
         {/* <directionalLight color="white" position={[0, 0, 5]} /> */}
         {/* <directionalLight color="white" position={[2, 0, -3]} /> */}
         <pointLight position={[4, 5, 3]} intensity={100} />
-        <mesh>
+        {/* <mesh>
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
-        </mesh>
+        </mesh> */}
+        <XCorundum />
       </Canvas>
     </div>
   );
