@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function XCorundum(props) {
-  const { nodes, materials } = useGLTF('/3dModels/xCorundum.glb')
+  const { nodes, materials } = useGLTF('/3dModels/xCorundum2.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Cube001.geometry} material={nodes.Cube001.material} />
@@ -15,4 +15,4 @@ export function XCorundum(props) {
   )
 }
 
-useGLTF.preload('/3dModels/xCorundum.glb')
+useGLTF.preload('/3dModels/xCorundum2.glb')
