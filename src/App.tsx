@@ -4,6 +4,8 @@ import {Canvas} from "@react-three/fiber";
 import {Menu} from "components";
 import {Box} from "components/3DModels/Box";
 import {XCorundum} from "components/3DModels/XCorundum";
+import { XCorundum2 } from "components/3DModels/XCorundum2";
+import { XCorundum3 } from "components/3DModels/XCorundum3";
 
 function App() {
   return (
@@ -16,18 +18,11 @@ function App() {
       >
         <color attach="background" args={["#303030"]} />
         <OrbitControls />
-        <ambientLight intensity={2} />
-        {/* <directionalLight color="white" position={[2, 5, 5]} /> */}
-        {/* <directionalLight color="white" position={[2, 5, -5]} /> */}
-        {/* <directionalLight color="white" position={[0, 0, 5]} /> */}
-        {/* <directionalLight color="white" position={[2, 0, -3]} /> */}
-        {/* <pointLight position={[4, 5, 3]} intensity={100} /> */}
-        {/* <mesh>
-          <boxGeometry args={[1, 1, 1]} />
-          <meshStandardMaterial color="red" />
-        </mesh> */}
+        <ambientLight intensity={0.8} />
+        <pointLight position={[10, 10, 0]} intensity={100} />
         <XCorundum />
-        <Box />
+        <XCorundum2 />
+        <XCorundum3 />
       </Canvas>
     </div>
   );
