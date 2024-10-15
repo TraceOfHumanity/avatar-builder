@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.2 box.glb
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
-  const { nodes, materials } = useGLTF('/box.glb')
+export function Box(props) {
+  const { nodes, materials } = useGLTF('/3dModels/box.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Cube.geometry} material={nodes.Cube.material} />
@@ -15,4 +15,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/box.glb')
+useGLTF.preload('/3dModels/box.glb')

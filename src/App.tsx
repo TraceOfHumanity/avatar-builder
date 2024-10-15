@@ -2,7 +2,8 @@ import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 
 import {Menu} from "components";
-import { XCorundum } from "components/3DModels/XCorundum";
+import {Box} from "components/3DModels/Box";
+import {XCorundum} from "components/3DModels/XCorundum";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <meshStandardMaterial color="red" />
         </mesh> */}
         <XCorundum />
+        <Box />
       </Canvas>
     </div>
   );
