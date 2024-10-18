@@ -6,6 +6,7 @@ import {Box} from "components/3DModels/Box";
 import {XCorundum} from "components/3DModels/XCorundum";
 import { XCorundum2 } from "components/3DModels/XCorundum2";
 import { XCorundum3 } from "components/3DModels/XCorundum3";
+import { XCorundum4 } from "components/3DModels/XCorundum4";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <pointLight position={[10, 10, 0]} intensity={100} />
         <XCorundum />
         <XCorundum2 />
-        <XCorundum3 />
+        {/* <XCorundum3 /> */}
+        <XCorundum4 />
       </Canvas>
     </div>
   );
