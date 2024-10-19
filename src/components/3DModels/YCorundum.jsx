@@ -6,17 +6,15 @@ import {useGLTF} from "@react-three/drei";
 import React from "react";
 
 export function YCorundum(props) {
-  const {nodes, materials} = useGLTF("/3dModels/yCorundum.glb");
+  const {nodes, materials} = useGLTF("/3dModels/yCorundum2.glb");
   return (
-    <group {...props} dispose={null}>
+    <group position={[1, 0, 0]} {...props} dispose={null}>
       <mesh
         geometry={nodes.Object_78001.geometry}
         material={materials.Material}
-        position={[0, 1.183, 0]}
-        scale={0.455}
       />
     </group>
   );
 }
 
-useGLTF.preload("/3dModels/yCorundum.glb");
+useGLTF.preload("/3dModels/yCorundum2.glb");

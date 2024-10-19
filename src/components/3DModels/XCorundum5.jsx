@@ -5,8 +5,8 @@ Command: npx gltfjsx@6.5.2 xCorundum.glb
 import {useGLTF} from "@react-three/drei";
 import React from "react";
 
-export function XCorundum4(props) {
-  const {nodes, materials} = useGLTF("/3dModels/xCorundum4.glb");
+export function XCorundum5(props) {
+  const {nodes, materials} = useGLTF("/3dModels/xCorundum5.glb");
   return (
     <group position={[-1, 0, 0]} {...props} dispose={null}>
       <mesh
@@ -17,4 +17,4 @@ export function XCorundum4(props) {
   );
 }
 
-useGLTF.preload("/3dModels/xCorundum4.glb");
+useGLTF.preload("/3dModels/xCorundum5.glb");
