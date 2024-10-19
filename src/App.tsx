@@ -19,10 +19,10 @@ function App() {
       >
         <color attach="background" args={["#303030"]} />
         <OrbitControls />
-        <ambientLight intensity={0.8} />
+        <ambientLight intensity={1} />
         <pointLight position={[10, 10, 0]} intensity={100} />
-        <XCorundum />
-        <XCorundum2 />
+        {/* <XCorundum /> */}
+        {/* <XCorundum2 /> */}
         {/* <XCorundum3 /> */}
         <XCorundum4 />
       </Canvas>

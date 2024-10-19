@@ -9,7 +9,7 @@ import { useGLTF } from '@react-three/drei'
 export function XCorundum4(props) {
   const { nodes, materials } = useGLTF('/3dModels/xCorundum4.glb')
   return (
-    <group position={[-3, 0, 0]} {...props} dispose={null}>
+    <group position={[0, 0, 0]} {...props} dispose={null}>
       <mesh geometry={nodes.Cube001.geometry} material={nodes.Cube001.material} />
     </group>
   )
