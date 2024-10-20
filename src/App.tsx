@@ -21,8 +21,8 @@ function App() {
       >
         <color attach="background" args={["#303030"]} />
         <OrbitControls />
-        <ambientLight intensity={0.5} />
-        <pointLight position={[0, 10, 0]} intensity={200} />
+        <ambientLight intensity={0.8} />
+        <pointLight position={[0, 10, 1]} intensity={200} />
         {/* <XCorundum /> */}
         {/* <XCorundum2 /> */}
         {/* <XCorundum3 /> */}
