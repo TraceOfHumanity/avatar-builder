@@ -10,7 +10,7 @@ export function Untitled1(props) {
   const { nodes, materials } = useGLTF("/3dModels/untitled1.glb");
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Object_75.geometry} material={materials.Blue} scale={0.454} />
+      <mesh geometry={nodes.Object_75.geometry} material={materials.Blue} />
     </group>
   )
 }
