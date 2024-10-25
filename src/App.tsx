@@ -2,6 +2,7 @@ import {OrbitControls} from "@react-three/drei";
 import {Canvas} from "@react-three/fiber";
 
 import {Menu} from "components";
+import { Y } from "components/3DModels/Y";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <OrbitControls />
         <ambientLight intensity={0.5} />
         <pointLight position={[0, 10, 1]} intensity={100} />
-
+        <Y />
       </Canvas>
     </div>
   );
