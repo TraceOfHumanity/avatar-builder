@@ -3,6 +3,7 @@ import {Canvas} from "@react-three/fiber";
 
 import {Menu} from "components";
 import { Y } from "components/3DModels/Y";
+import { Y2 } from "components/3DModels/Y2";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <ambientLight intensity={0.5} />
         <pointLight position={[0, 10, 1]} intensity={100} />
         <Y />
+        <Y2 />
       </Canvas>
     </div>
   );
