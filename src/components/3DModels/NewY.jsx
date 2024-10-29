@@ -17,9 +17,18 @@ export function NewY(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="Armature" scale={0.01}>
-          <primitive object={nodes.mixamorigHips} />
-          <skinnedMesh name="Plane002" geometry={nodes.Plane002.geometry} material={materials['Material.003']} skeleton={nodes.Plane002.skeleton} />
+        <group name="Armature">
+          <primitive object={nodes.Hips} />
+          <primitive object={nodes.Ctrl_Master} />
+          <primitive object={nodes.Ctrl_ArmPole_IK_Left} />
+          <primitive object={nodes.Ctrl_Hand_IK_Left} />
+          <primitive object={nodes.Ctrl_ArmPole_IK_Right} />
+          <primitive object={nodes.Ctrl_Hand_IK_Right} />
+          <primitive object={nodes.Ctrl_Foot_IK_Left} />
+          <primitive object={nodes.Ctrl_LegPole_IK_Left} />
+          <primitive object={nodes.Ctrl_Foot_IK_Right} />
+          <primitive object={nodes.Ctrl_LegPole_IK_Right} />
+          <skinnedMesh name="Plane002" geometry={nodes.Plane002.geometry} material={materials.Material} skeleton={nodes.Plane002.skeleton} />
         </group>
       </group>
     </group>
